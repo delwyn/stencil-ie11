@@ -27,6 +27,6 @@ export class MyComponent {
   }
 
   render() {
-    return <div>Hello, World! I'm {this.getText()}</div>;
+    return <div onClick={() => alert('click')}>Hello, World! I'm {this.getText()}</div>;
   }
 }
